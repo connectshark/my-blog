@@ -1,0 +1,25 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+      
+    - name: Make envfile
+      uses: SpicyPizza/create-envfile@v1
+      with:
+        envkey_GA: ${{ secrets.GA }}
+        envkey_GTM: ${{ secrets.GTM }}
+        envkey_CLIENTSECRET: ${{ secrets.CLIENTSECRET }}
+        envkey_CLIENT: ${{ secrets.CLIENT }}
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: connectshark/connectshark.github.io
+        TARGET_BRANCH: master
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: docs/.vuepress/dist/
