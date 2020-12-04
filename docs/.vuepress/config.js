@@ -1,5 +1,5 @@
 const dotenv = require('dotenv').config().parsed
-
+console.log(dotenv)
 module.exports = {
 	title: 'NoseGates',
 	description: 'a site for frontend enginner',
@@ -125,7 +125,7 @@ module.exports = {
 		[
 			'vuepress-plugin-google-tag-manager',
 			{
-				gtm: dotenv.GTM
+				gtm: dotenv.envkey_GTM
 			}
 		],
 		[
@@ -143,14 +143,14 @@ module.exports = {
 				// 其他的 Vssue 配置
 				owner: 'connectshark',
 				repo: 'gitpages',
-				clientId: dotenv.CLIENT,
-				clientSecret: dotenv.CLIENTSECRET,
+				clientId: dotenv.envkey_CLIENT,
+				clientSecret: dotenv.envkey_CLIENTSECRET,
 			},
 		],
 		[
       '@vuepress/google-analytics',
       {
-        'ga': dotenv.GA
+        'ga': dotenv.envkey_GA
       }
 		],
 		['flowchart'],
