@@ -125,7 +125,7 @@ module.exports = {
 		[
 			'vuepress-plugin-google-tag-manager',
 			{
-				gtm: dotenv.envkey_GTM
+				gtm: dotenv.GTM
 			}
 		],
 		[
@@ -143,14 +143,14 @@ module.exports = {
 				// 其他的 Vssue 配置
 				owner: 'connectshark',
 				repo: 'gitpages',
-				clientId: dotenv.envkey_CLIENT,
-				clientSecret: dotenv.envkey_CLIENTSECRET,
+				clientId: dotenv.CLIENT,
+				clientSecret: dotenv.CLIENTSECRET,
 			},
 		],
 		[
       '@vuepress/google-analytics',
       {
-        'ga': dotenv.envkey_GA
+        'ga': dotenv.GA
       }
 		],
 		['flowchart'],
