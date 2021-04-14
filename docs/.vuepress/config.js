@@ -91,8 +91,7 @@ module.exports = {
 					['/teach/searchHighlight', '在Vue中製作搜尋highlight[part1]'],
 					['/teach/searchHighlight2', '在Vue中製作搜尋highlight[part2]'],
 					['/teach/arrayReduce', '陣列運用筆記 reduce()'],
-					['/teach/polacode', '截圖你的code - polacode'],
-					['/teach/googleDomain', '購買google domain圖文教學&github page設定']
+					['/teach/polacode', '截圖你的code - polacode']
 				]
 			},
 			['./aboutme', '關於我']
