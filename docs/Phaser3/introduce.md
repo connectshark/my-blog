@@ -144,5 +144,3 @@ function update () {
 
 可以去[官網上下載](https://phaser.io/tutorials/making-your-first-phaser-3-game-chinese)
 :::
-
-<Vssue :title="$title" />

@@ -129,5 +129,3 @@ this.physics.add.collider(this.player, this.platforms)
 ## 下回預告
 
 下回讓玩家動起來吧
-
-<Vssue :title="$title" />

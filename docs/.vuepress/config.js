@@ -137,18 +137,6 @@ module.exports = {
       }
 		],
 		[
-			'@vssue/vuepress-plugin-vssue', {
-				// 设置 `platform` 而不是 `api`
-				platform: 'github',
-	
-				// 其他的 Vssue 配置
-				owner: 'connectshark',
-				repo: 'gitpages',
-				clientId: dotenv.CLIENT,
-				clientSecret: dotenv.CLIENTSECRET,
-			},
-		],
-		[
       '@vuepress/google-analytics',
       {
         'ga': dotenv.GA

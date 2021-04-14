@@ -16,8 +16,6 @@
 		"vuepress-plugin-flowchart": "^1.4.3"
 	},
 	"dependencies": {
-		"@vssue/api-github-v3": "^1.4.4",
-		"@vssue/vuepress-plugin-vssue": "^1.4.6",
 		"dotenv": "^8.2.0",
 		"vuepress-plugin-google-tag-manager": "^0.0.4",
 		"vuepress-theme-book": "^0.0.5"

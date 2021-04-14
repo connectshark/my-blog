@@ -148,5 +148,3 @@ function collectStar (player, star) {
 這裡的動作有點像是把星星關掉
 
 效果上就會有玩家收集星星的感覺
-
-<Vssue :title="$title" />

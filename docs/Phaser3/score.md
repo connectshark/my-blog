@@ -144,5 +144,3 @@ if (this.stars.countActive(true) === 0){
 小品遊戲就這麼完成拉
 
 恭喜!!
-
-<Vssue :title="$title" />

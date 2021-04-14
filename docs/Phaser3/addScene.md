@@ -251,5 +251,3 @@ this.restart = this.add.text(config.width / 2, 400, 'restart', {
 等未來自己更熟練以後
 
 再把這個小品遊戲拿出來加入更厲害的效果
-
-<Vssue :title="$title" />

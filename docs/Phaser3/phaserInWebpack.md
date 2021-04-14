@@ -271,6 +271,3 @@ create (score) {
 此篇內容全部會放到[github](https://github.com/connectshark/phaser-example)上
 
 感謝大家閱讀
-
-
-<Vssue :title="$title" />

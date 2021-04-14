@@ -120,5 +120,3 @@ function create () {
 這回加入**物理系統**
 
 下回把遊戲要用的角色加進來吧!!
-
-<Vssue :title="$title" />

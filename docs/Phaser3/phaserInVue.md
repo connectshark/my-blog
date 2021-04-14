@@ -202,5 +202,3 @@ module.exports = {
 有設定上困難的可以tg訊息給我一起討論
 
 ---
-
-<Vssue :title="$title" />

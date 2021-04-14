@@ -7,6 +7,12 @@ description: 描述部落格的編輯過程
 # NoseGates Blog 更新日誌:thumbsup:
 紀錄個人卡關:question:和小作品:satisfied:的部落格
 
+## 重新開始更新js30
+
+荒廢有點時間但沒關係
+
+最近會繼續更新js30
+
 ## 實作小成品的文章完成 & JS30挑戰文章
 
 近期老實說有點腦袋空空

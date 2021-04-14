@@ -289,5 +289,3 @@ reload就會看到讀取完成以後
 </html>
 ```
 [參考網站](https://gamedevacademy.org/creating-a-preloading-screen-in-phaser-3/?a=13)
-
-<Vssue :title="$title" />
