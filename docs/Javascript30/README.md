@@ -26,3 +26,5 @@ description: 使用純javascript練習各種實作應用
 |06 - Type Ahead|[筆記](/Javascript30/typeAhead)|[06 - Type Ahead](https://connectshark.github.io/JavaScript30/06%20-%20Type%20Ahead/index-Chambers.html)|
 |07 - Array Cardio Day 2|[筆記](/Javascript30/ArrayCardio2)|[07 - Array Cardio Day 2](https://connectshark.github.io/JavaScript30/07%20-%20Array%20Cardio%20Day%202/index-Chambers.html)|
 |08 - Fun with HTML5 Canvas|[筆記](/Javascript30/funCanvas)|[08 - Fun with HTML5 Canvas](https://connectshark.github.io/JavaScript30/08%20-%20Fun%20with%20HTML5%20Canvas/index-Chambers.html)|
+|10 - Hold Shift and Check Checkboxes|筆記|[10 - Hold Shift and Check Checkboxes](https://connectshark.github.io/JavaScript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index-Chambers.html)|
+|11 - Custom Video Player|[筆記](/Javascript30/customVideoPlayer)|[11 - Custom Video Player](https://connectshark.github.io/JavaScript30/11%20-%20Custom%20Video%20Player/)|

@@ -54,7 +54,9 @@ module.exports = {
 					['Javascript30/flexPanelGallery', '05 - Flex Panel Gallery'],
 					['Javascript30/typeAhead', '06 - Type Ahead'],
 					['Javascript30/ArrayCardio2', '07 - Array Cardio Day 2'],
-					['Javascript30/funCanvas', '08 - Fun with HTML5 Canvas']
+					['Javascript30/funCanvas', '08 - Fun with HTML5 Canvas'],
+					['Javascript30/leftShift', '10 - Hold Shift and Check Checkboxes'],
+					['Javascript30/customVideoPlayer', '11 - Custom Video Player']
 				]
 			},
 			{
@@ -90,7 +92,7 @@ module.exports = {
 					['/teach/searchHighlight2', '在Vue中製作搜尋highlight[part2]'],
 					['/teach/arrayReduce', '陣列運用筆記 reduce()'],
 					['/teach/polacode', '截圖你的code - polacode'],
-					// ['/teach/uploadImg', '讀圖預覽小元件']
+					['/teach/googleDomain', '購買google domain圖文教學&github page設定']
 				]
 			},
 			['./aboutme', '關於我']
